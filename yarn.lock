@@ -928,28 +928,28 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@datadog/browser-core@3.6.13":
-  version "3.6.13"
-  resolved "https://registry.yarnpkg.com/@datadog/browser-core/-/browser-core-3.6.13.tgz#e9d7f43b50e7d52a3615619695210cf809a6bb04"
-  integrity sha512-bIvfSFYNanxY0NFePxv46oYsqxy3ygJhPWKV59XQqWYqmtq/29zVj3RmxMW4uxV/mdqGhshNrIvAYO17fc15vw==
+"@datadog/browser-core@3.8.0":
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-core/-/browser-core-3.8.0.tgz#5f9b694331512b9b25b585f483e2428ff16ae44b"
+  integrity sha512-JC2t2wEvXuqaxOOXP1a7CAEP8WZW9rdtQLeMc65E/5G6Ir1baSghEU3ajEwnzw0bSaJtz6jUJPJHqek5TrHbKw==
   dependencies:
     tslib "^1.10.0"
 
-"@datadog/browser-rum-core@3.6.13":
-  version "3.6.13"
-  resolved "https://registry.yarnpkg.com/@datadog/browser-rum-core/-/browser-rum-core-3.6.13.tgz#100fa64580251d200318a87356ce50bb99321b7f"
-  integrity sha512-AT5ktBT1T3HbwK86+E6adKTkn0makv2d5LBU7tshnQk/4ZfjhctBCCRQnHuiXmwwvt0isn8H5q/VVs7xIhaGSA==
+"@datadog/browser-rum-core@3.8.0":
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-rum-core/-/browser-rum-core-3.8.0.tgz#58eda0c2a095b7fb2eaedf977d15b05124d91e2d"
+  integrity sha512-7mJ27+vlgjDfVWD1FCRpEirky9hDoacbQ7G4BPgKGfz38RUwWcjFwjV/pFmhhQnNwqI0fIaitO2KZz4U7VR3WA==
   dependencies:
-    "@datadog/browser-core" "3.6.13"
+    "@datadog/browser-core" "3.8.0"
     tslib "^1.10.0"
 
-"@datadog/browser-rum@^3.6.13":
-  version "3.6.13"
-  resolved "https://registry.yarnpkg.com/@datadog/browser-rum/-/browser-rum-3.6.13.tgz#bd000fed617e2258da0b501813e68052e152ef82"
-  integrity sha512-mzJeiBtgP0+OBwx9e4qZbNFWAN5duI2w/hU3Zf4RqI0wMWXRxSXBr4E1XNZcppvdhRaHHSlR0dPLGJfH8Q8jXA==
+"@datadog/browser-rum@^3.7.0":
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/@datadog/browser-rum/-/browser-rum-3.8.0.tgz#4b7485ed475d7104c4ebc34a5a9abc7c2abce0d1"
+  integrity sha512-ZJbkZU/rgUqF9FpYDgFSmpSTIb+v/9jIuaVHvkNmRWNG9vCwVDtTTur7uoliBFCQGvA3zlhPkEzOEQ6KJWm8yg==
   dependencies:
-    "@datadog/browser-core" "3.6.13"
-    "@datadog/browser-rum-core" "3.6.13"
+    "@datadog/browser-core" "3.8.0"
+    "@datadog/browser-rum-core" "3.8.0"
     tslib "^1.10.0"
 
 "@datadog/datadog-ci@^0.17.8":
